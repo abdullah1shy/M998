@@ -227,7 +227,7 @@ async def play(event):
 
 
 #end
-@R0R77.on(events.NewMessage(pattern="^[/?!]انهاء"))
+@R0R77.on(events.NewMessage(pattern="^[/?!]كافي"))
 @is_admin
 async def vc_end(event, perm):
     chat_id = event.chat_id

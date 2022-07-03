@@ -10,7 +10,7 @@ IMG = os.environ.get(
 ms = 4
 
 ALIVE = os.environ.get(
-    "ALIVE", "@R0R77"
+    "ALIVE", "@R2RR7"
 )
 
 CAPTION = f"**سرعة البنك:** {ms}\n المالك:『{ALIVE}』"
@@ -18,5 +18,5 @@ CAPTION = f"**سرعة البنك:** {ms}\n المالك:『{ALIVE}』"
 
 @R0R77.on(events.NewMessage(pattern="^/ping"))
 async def _(event):
-    UMM = [[Button.url("السورس", "https://t.me/JMTHON")]]
+    UMM = [[Button.url("السورس", "https://t.me/R125R")]]
     await R0R77.send_file(event.chat_id, IMG, caption=CAPTION, buttons=UMM)

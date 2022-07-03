@@ -23,8 +23,8 @@ async def start(event):
              Config.START_IMG,
              caption=PM_START_TEXT.format(event.sender.first_name), 
              buttons=[
-        [Button.url("➕ اضغط هنا لأضافتي", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("السورس", "https://github.com/R0R77/Telethon-Music")],
+        [Button.url(" اضغط هنا لأضافتي", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+        [Button.url("السورس", "https://t.me/R125R")],
         [Button.url("الدعم", f"https://t.me/{Config.SUPPORT}"), Button.url("القناة", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("الاوامر", data="help")]])
        return
@@ -39,8 +39,8 @@ async def start(event):
 async def _(event):
     if event.is_private:
        await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
-        [Button.url("➕ اضغط هنا لاضافتي", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("السورس", "https://github.com/R0R77/Telethon-Music")],
+        [Button.url(" اضغط هنا لاضافتي", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+        [Button.url("السورس", "https://t.me/R125R")],
         [Button.url("الدعم", f"https://t.me/{Config.SUPPORT}"), Button.url("القناة", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("الاوامر", data="help")]])
        return

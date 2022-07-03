@@ -8,7 +8,7 @@ btn =[
     [Button.inline("القفل", data="locks"), Button.inline("اخرى", data="misc")],
     [Button.inline("الئيسية", data="start")]]
 
-HELP_TEXT = "اهلا بك في قائمة اوامر سورس جمثون\n\nاضغط على الازرار من الاسفل:"
+HELP_TEXT = "اهلا بك في قائمة اوامر سورس دايفل \n\nاضغط على الازرار من الاسفل:"
 
 
 @R0R77.on(events.NewMessage(pattern="[!?/]الاوامر"))
