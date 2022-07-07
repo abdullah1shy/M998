@@ -2,13 +2,13 @@ from telethon import events, Button
 from R0R77 import R0R77, BOT_USERNAME
 
 btn =[
-    [Button.inline("الادمن", data="admin"),],
-    [Button.inline("التثبيت", data="pins"), Button.inline("التنظيف", data="purges")],
-    [Button.inline("التشغيل", data="play"), Button.inline("المحذوفين", data="zombies")],
-    [Button.inline("القفل", data="locks"), Button.inline("اخرى", data="misc")],
-    [Button.inline("الئيسية", data="start")]]
+    [Button.inline("⭐الادمن", data="admin"),],
+    [Button.inline("📌التثبيت", data="pins"), Button.inline("التنظيف", data="purges")],
+    [Button.inline("🎵التشغيل", data="play"), Button.inline("المحذوفين", data="zombies")],
+    [Button.inline("🔒القفل", data="locks"), Button.inline("اخرى", data="misc")],
+    [Button.inline("السابق ↩️", data="start")]]
 
-HELP_TEXT = "اهلا بك في قائمة اوامر سورس دايفل \n\nاضغط على الازرار من الاسفل:"
+HELP_TEXT = "اهلا بك في قائمة الاوامر  \n\nاضغط على الازرار من الاسفل:"
 
 
 @R0R77.on(events.NewMessage(pattern="[!?/]الاوامر"))
