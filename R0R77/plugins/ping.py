@@ -18,5 +18,5 @@ CAPTION = f"**سرعة البنك:** {ms}\n المالك:『{ALIVE}』"
 
 @R0R77.on(events.NewMessage(pattern="^/ping"))
 async def _(event):
-    UMM = [[Button.url("السورس", "https://t.me/R125R")]]
+    UMM = [[Button.url("السورس", "https://t.me/kkkt6")]]
     await R0R77.send_file(event.chat_id, IMG, caption=CAPTION, buttons=UMM)
