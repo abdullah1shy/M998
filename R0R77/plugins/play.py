@@ -25,8 +25,8 @@ from telethon.tl.functions.users import GetFullUserRequest
 from youtubesearchpython import VideosSearch
 
  
-fotoplay = "https://telegra.ph/file/b6402152be44d90836339.jpg"
-ngantri = "https://telegra.ph/file/b6402152be44d90836339.jpg"
+fotoplay = "https://telegra.ph/file/37942a100bc233302914d.jpg"
+ngantri = "https://telegra.ph/file/37942a100bc233302914d.jpg"
 from R0R77 import call_py, R0R77, client as Client
 owner = "1669178360"
 from R0R77.helpers.yt_dlp import bash
@@ -130,7 +130,7 @@ btnn =[
 
 
 #play
-@R0R77.on(events.NewMessage(pattern="^[?!/]تشغيل"))
+@R0R77.on(events.NewMessage(pattern="^[?!/]شغل"))
 async def play(event):
     title = ' '.join(event.text[5:])
     replied = await event.get_reply_message()
